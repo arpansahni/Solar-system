@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Weight</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="scrip2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="head" id="header_file">
+            <h1>SOLAR SYSTEM WEIGHT</h1>
+        </div>
+        <div class="images" id="planets">
+            <div class="row">
+            <a class="planets" onclick="mercury()"><img src="IMAGES/mercury.jpg"><h3>MERCURY</h3></a>
+            <a class="planets" onclick="venus()"><img src="IMAGES/venus.jpg"><h3>VENUS</h3></a>
+            <a class="planets" onclick="earth()"><img src="IMAGES/earth.jpg"><h3>EARTH</h3></a>
+            <a class="planets" onclick="mars()"><img src="IMAGES/mars.jpg"><h3>MARS</h3></a>
+        </div>
+        <div class="row">
+            <a class="planets" onclick="jupiter()"><img src="IMAGES/jupitar.jpg"><h3>JUPITER</h3></a>
+            <a class="planets" onclick="saturn()"><img src="IMAGES/saturn.jpg"><h3>SATURN</h3></a>
+            <a class="planets" onclick="uranus()"><img src="IMAGES/uranus.jpg"><h3>URANUS</h3></a>
+            <a class="planets" onclick="neptune()"><img src="IMAGES/neptune.jpg"><h3>NEPTUNE</h3></a>
+        </div>
+    </div>
+
+        <div class="form" id="planetweight">
+            <div class="inputs" id="inputsW">
+                <h2>ENTER WEIGHT</h2>
+                <input name="planets" id="inp" placeholder="enter the object's weight" data-required="true" script="width:80%; height:50px; font-size:25px">
+
+            </div>
+            <div class="display" id="display">
+                <p id="p"></p>
+                <p id="p2"></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
